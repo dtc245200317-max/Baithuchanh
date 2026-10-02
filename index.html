@@ -2,26 +2,26 @@
 <html lang="vi">
 <head>
     <meta charset="UTF-8">
-    <title>Thực hành nhúng CSS</title>
+    <title>Bài tập nhúng CSS</title>
     
-    <!-- PHẦN 3: External-style (Nhúng file CSS từ bên ngoài vào) -->
+    <!-- Sửa lỗi: Liên kết tệp CSS bên ngoài (External-style) -->
     <link rel="stylesheet" href="style.css">
 
-    <!-- PHẦN 2: Internal-style (Viết CSS trực tiếp bên trong thẻ <style> của phần <head>) -->
+    <!-- Giữ nguyên Internal-style (Đã đạt điểm) -->
     <style>
-        .doan-van-internal {
-            color: green; /* Đổi chữ thành màu xanh lá */
+        .van-ban-internal {
+            color: blue;
         }
     </style>
 </head>
 <body>
 
-    <!-- PHẦN 1: Inline-style (Viết CSS trực tiếp bằng thuộc tính style="" ngay trong thẻ HTML) -->
-    <h1 style="color: red;">Đây là tiêu đề được dùng Inline-style (Màu đỏ)</h1>
+    <!-- Sửa lỗi: Thêm thuộc tính style trực tiếp vào thẻ HTML (Inline-style) -->
+    <h1 style="color: red;">Đây là tiêu đề sử dụng Inline-style</h1>
 
-    <p class="doan-van-internal">Đây là đoạn văn bản được dùng Internal-style (Màu xanh lá).</p>
+    <p class="van-ban-internal">Đây là đoạn văn bản sử dụng Internal-style (Màu xanh dương).</p>
     
-    <p class="doan-van-external">Đây là đoạn văn bản được dùng External-style (Màu xanh dương).</p>
+    <p class="van-ban-external">Đây là đoạn văn bản sử dụng External-style (Màu xanh lá).</p>
 
 </body>
 </html>

@@ -1,4 +1,4 @@
-/* PHẦN 3: External-style (Các định dạng được viết ở một file riêng biệt) */
-.doan-van-external {
-    color: blue; /* Đổi chữ thành màu xanh dương */
+/* Sửa lỗi: File chỉ chứa quy tắc định dạng màu sắc cho văn bản */
+.van-ban-external {
+    color: green;
 }
